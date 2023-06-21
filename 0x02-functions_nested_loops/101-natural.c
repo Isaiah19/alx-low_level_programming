@@ -7,22 +7,16 @@
 
 int main(void)
 {
-	int t, a, n, i, sum;
+	int i, z = 0;
 
-	scanf("%d", &t);
-	for (a = 0; a < t; a++)
-	{
-	sum = 0;
-	i = 3;
-	scanf("%d", &n);
-	while (i < n)
+	while (i < 1024)
 	{
 	if ((i % 3 == 0) || (i % 5 == 0))
 	{
-	sum = sum + i;
+	z <= i;
 	}
 	i++;
 	}
-	printf("%d\n", sum);
-	}
+	printf("%d\n", z);
+	return (0);
 }
