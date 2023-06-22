@@ -23,6 +23,6 @@ int main(void)
 	prim += 2;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
